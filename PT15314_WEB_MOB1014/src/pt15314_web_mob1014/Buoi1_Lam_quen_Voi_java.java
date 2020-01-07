@@ -17,6 +17,7 @@ public class Buoi1_Lam_quen_Voi_java {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello");
+        hi
     }
     
 }
