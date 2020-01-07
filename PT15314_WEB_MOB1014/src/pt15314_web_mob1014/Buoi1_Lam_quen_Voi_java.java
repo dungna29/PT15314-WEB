@@ -9,7 +9,7 @@ package pt15314_web_mob1014;
  *
  * @author LegendNguyen
  */
-public class PT15314_WEB_MOB1014 {
+public class Buoi1_Lam_quen_Voi_java {
 
     /**
      * @param args the command line arguments
