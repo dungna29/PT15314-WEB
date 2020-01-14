@@ -14,9 +14,16 @@ public class S3_CacHamToanHoc {
     public static void main(String[] args) {
 
         //Thứ tự ưu tiên của toán học 5 +7*2 - 4/2 (Nhân và chia -> Cộng và trừ -> Trái sang phải);
-        System.out.println(5 + 7 * 2 - 4 / 2); // Nhân chia trước cộng trừ sau
+        //System.out.println(5 + 7 * 2 - 4 / 2); // Nhân chia trước cộng trừ sau
         //Toán tử + có thể sử dụng để cộng chuỗi String + String = StringString || dung + anh = dunganh
-
+        //Max & Min
+        double a = 3, b = 5;
+        System.out.println("Số lớn nhất: " + Math.max(a, b));
+        System.out.println("Số nhỏ nhất: " + Math.min(a, b));
+        double temp = 7.4;
+        System.out.println("Số nhỏ nhất: " + Math.round(temp));
+        
+        
         // *********** Các hàm toán học ***********
         //Math.min(a, b) - Lấy số nhỏ nhất của 2 số a và b (Sử dụng nhiều)
         //Math.max(a, b) - Tính an (a lũy thừa n) (Sử dụng nhiều)
@@ -26,17 +33,15 @@ public class S3_CacHamToanHoc {
         //Math.floor(a) - Lấy số nguyên dưới của a
         //Math.round(a) - Làm tròn số của a
         //Math.random() - Sinh số ngẫu nhiên từ 0 đến 1 (0.0 and less than 1.0) 
-        
+
         //Tìm giá trị nhỏ nhất và lớn nhất của 2 số sau hoặc bạn bắt người dùng nhập vào 2 số và chỉ ra số nào lớn nhất hoặc nhỏ nhất
-        int a = 5;
-        int b = 7;
-        
-        System.out.println("Số nhỏ nhất trong 2 số 5 và 7 là: " + Math.min(a, b));
-        System.out.println("Số lớn nhất trong 2 số 5 và 7 là: " + Math.max(a, b));
-        System.out.println(Math.random());
+//        int a = 5;
+//        int b = 7;
+//        
+//        System.out.println("Số nhỏ nhất trong 2 số 5 và 7 là: " + Math.min(a, b));
+//        System.out.println("Số lớn nhất trong 2 số 5 và 7 là: " + Math.max(a, b));
+//        System.out.println(Math.random());
         //Các hàm còn lại các bạn tự thực hành
-        
-        
     }
 
 }
