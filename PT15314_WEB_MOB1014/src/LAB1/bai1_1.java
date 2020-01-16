@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab1;
+package LAB1;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Asus Gaming PC
  */
-public class bai1 {
+public class bai1_1 {
 
     public static void main(String[] ags) {
         String FullName,StudentCode;
