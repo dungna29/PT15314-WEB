@@ -12,6 +12,8 @@ package Slide2;
 public class Postfix_Prefix {
 
     public static void main(String[] args) {
+        // Khi nhìn thấy toán tử toán học ++ hoặc -- đứng trước biến ++firstVariable --firstVariable các bạn vui lòng cộng lên 1 hoặc giảm 1 ngay cho phép toán
+        // Còn khi bạn nhìn thấy ++ hoặc -- đứng sau biến firstVariable++ firstVariable-- các bạn không thực hiện tăng lên hoặc giảm đi ngay trong biểu thức
         int firstVariable = 4, secondVariable = 8, thirdVariable = 3, result;        
         result = ++firstVariable + secondVariable-- - ++thirdVariable;
         System.out.println("First variable = " + firstVariable);
