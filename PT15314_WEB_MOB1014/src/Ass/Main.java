@@ -14,7 +14,25 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Menu();       
+        Menu();
+        do {
+            System.out.println("Mời người dùng nhập");
+            String input1 = "Y";
+            input1.toLowerCase();
+            
+            if (input1.length() >1) {
+                System.out.println("Bạn đã nhập quá 1 ký tự");
+            } else if (input1.equals("y")) {
+                //Thực hiên 1 chứu nào đó
+                break;
+
+            } else if (input1.equals("n")) {                
+                //Thực hiên 1 chứu nào đó 
+                break;
+            }
+            System.out.println("Bạn vui lòng nhập đúng theo yêu cầu");
+        } while (true);
+
     }
 
     static void Menu() {
@@ -34,10 +52,11 @@ public class Main {
     }
 
     static void Hamchucnang() {
-        Scanner sc = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in);
         System.out.println("Mời bạn chọn chức năng của chương :");
         int input = sc.nextInt();
         //Switch case
+
         switch (input) {
             case 1:
                 System.out.println("Vào chức năng 1");
