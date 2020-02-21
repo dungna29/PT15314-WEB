@@ -14,6 +14,10 @@ import java.util.Scanner;
 public class OOP_LapTrinhHuongDoiTuong {
 
     public static void main(String[] args) {
+        Person pt = new Person();
+        pt.HoVaTen = "";
+        NewClass nc = new NewClass();
+        nc.FullName = "";
         //Bài tập viết 1 chương trình cho người dùng nhập vào 
         //thông tin của giáo viên, thông tin của học sinh, thông tin của của nhân viên của trường FPT
         //TT Giáo Viên gồm: MSGiaoVien, TenGV, TuoiGV, DayMon
@@ -33,12 +37,13 @@ public class OOP_LapTrinhHuongDoiTuong {
 //        personSV1.InRaManHinhSV();
 //        
 
+
           //Mỗi 1 cái pt đại diện cho 1 loại phương tiện mà mình định xử lý
-          PhuongTien pt = new PhuongTien();
-          pt.TrongTai = 15.000000;
-          pt.HangSX =" Made in VN";
-          pt.Mau = "Trắng";
-          pt.CoiKeu("1");//Hành vi của cái phương tiện chính là HÀM trong lập trình
+//          PhuongTien pt = new PhuongTien();
+//          pt.TrongTai = 15.000000;
+//          pt.HangSX =" Made in VN";
+//          pt.Mau = "Trắng";
+//          pt.CoiKeu("1");//Hành vi của cái phương tiện chính là HÀM trong lập trình
           
 //          XeMay xm = new XeMay();
 //       
