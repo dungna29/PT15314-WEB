@@ -12,12 +12,15 @@ import java.util.Scanner;
  * @author Nguyen Anh Dung
  */
 public class OOP_LapTrinhHuongDoiTuong {
+   static int _firstName;
 
     public static void main(String[] args) {
         Person pt = new Person();
         pt.HoVaTen = "";
         NewClass nc = new NewClass();
         nc.FullName = "";
+        int name;
+       
         //Bài tập viết 1 chương trình cho người dùng nhập vào 
         //thông tin của giáo viên, thông tin của học sinh, thông tin của của nhân viên của trường FPT
         //TT Giáo Viên gồm: MSGiaoVien, TenGV, TuoiGV, DayMon
@@ -97,6 +100,7 @@ public class OOP_LapTrinhHuongDoiTuong {
         TuoiSV = sc.nextInt();
         sc.nextLine();
         System.out.println("Thông tin SV: " + MSSinhVien + "Tên: " + TenSV + "TuổiGV: " + TuoiSV + "Nghành: " + Nganh);
+        
     }
 
     static void OOP() {
