@@ -97,6 +97,11 @@ public class S1_XuLyChuoi {
         int index2 = s1.lastIndexOf("ex");
         System.out.println(index1);//6 
         System.out.println(index2);//17
+        
+        String temp = "nguyen anh dung";
+        String[]arr = temp.split("\\s+");
+        String temp1 = String.valueOf(arr[0].charAt(0)).toUpperCase() + arr[0].substring(1);    
+        System.out.println(temp1);
     }
 
 }
