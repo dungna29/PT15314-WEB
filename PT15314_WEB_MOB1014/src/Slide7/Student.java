@@ -36,4 +36,7 @@ public class Student extends Person {
         super.addNewPerson();//Gọi hàm từ lớp cha để kế thừa toàn bộ hàm lớp cha
     }
 
+   
+    
+
 }

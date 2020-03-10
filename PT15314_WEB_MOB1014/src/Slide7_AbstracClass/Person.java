@@ -3,23 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Slide7;
+package Slide7_AbstracClass;
 
 /**
  *
  * @author Nguyen Anh Dung
  */
-//superclass là lớp cha
-public class Person {
+public abstract class Person {
     private String namePerson = " Đây là bố ";
-    String quocgia = "VietNam";
-
-    public Person() {
-    }
-
-    public Person(String namePerson) {
-        this.namePerson = namePerson;
-    }
 
     public String getNamePerson() {
         return namePerson;
@@ -29,13 +20,19 @@ public class Person {
         this.namePerson = namePerson;
     }
     
-    void addNewPerson(){
-        System.out.println("Đây phương thức addNewPerson");
+    //Hàm non - abstract  
+    void removePerson(){
+        //body
     }
     
-   private void removePerson(){
-        System.out.println("Đây phương thức Xóa của Person");
-    }
+    //Đây là khai báo các hàm abstract - Không có Body(Thân code bên trong hàm)
+    //Khi lớp con kế thừa sẽ phải kế thừa toàn bộ hàm có từ khóa abstract ở đầu
+    abstract void addnewPerson();
+
+    abstract void xoanewPerson1();
+
+    abstract void suanewPerson2();
     
-    
+    abstract void locPerson2();
+
 }
